@@ -8,7 +8,7 @@
               <article class="tile is-child card">
                 <div class="card-image">
                   <figure class="image is-3by2">
-                    <img src="@/assets/headshot.jpg" alt="Headshot">
+                    <img src="@/assets/headshot_smaller.jpg" alt="Headshot">
                   </figure>
                 </div>
                 <div class="card-content">
@@ -39,7 +39,7 @@
                   </div>
                   <div class="is-size-7 exp-container">
 
-                    <b-collapse class="card" animation="slide" :open="false">
+                    <b-collapse class="card" animation="slide" :open="true">
                       <div slot="trigger" slot-scope="props" class="card-header card-header-hover" role="button">
                         <p class="card-header-title">
                           Lead development on enterprise-level applications
