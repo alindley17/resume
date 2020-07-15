@@ -31,15 +31,15 @@
             </div>
             <div class="tile is-parent">
               <article class="tile is-child card">
-                <div class="card-content">
-                  <div class="is-size-5 has-text-weight-bold has-text-left">Experience</div>
-                  <div class="is-size-7 has-text-weight-normal has-text-left">
+                <div class="card-content is-paddingless">
+                  <div class="is-size-5 has-text-weight-bold has-text-left custom-padding">Experience</div>
+                  <div class="is-size-7 has-text-weight-normal has-text-left custom-padding">
                     <div class="has-text-left has-text-weight-bold">Bright Rain Solutions, Full-stack Developer</div>
                     <div>May '17 - Jun '20</div>
                   </div>
                   <div class="is-size-7 exp-container">
 
-                    <b-collapse class="card" animation="slide" :open="true">
+                    <b-collapse animation="slide" :open="true">
                       <div slot="trigger" slot-scope="props" class="card-header card-header-hover" role="button">
                         <p class="card-header-title">
                           Lead development on enterprise-level applications
@@ -58,7 +58,7 @@
                         </div>
                       </div>
                     </b-collapse>
-                    <b-collapse class="card" animation="slide" :open="false">
+                    <b-collapse animation="slide" :open="false">
                       <div slot="trigger" slot-scope="props" class="card-header card-header-hover" role="button">
                         <p class="card-header-title">
                           Design and deploy reactive responsive front-end applications with intuitive UI/UX
@@ -74,7 +74,7 @@
                         </div>
                       </div>
                     </b-collapse>
-                    <b-collapse class="card" animation="slide" :open="false">
+                    <b-collapse animation="slide" :open="false">
                       <div slot="trigger" slot-scope="props" class="card-header card-header-hover" role="button">
                         <p class="card-header-title">
                           Build CRUD APIs that securely manage users and communication with the database
@@ -90,29 +90,29 @@
                         </div>
                       </div>
                     </b-collapse>
-                    <div class="card">
+                    <div>
                       <div class="card-header card-header-default">
                         <p class="card-header-title">
                           Design data structures and create databases
                         </p>
                       </div>
                     </div>
-                    <div class="card">
+                    <div>
                       <div class="card-header card-header-default">
                         <p class="card-header-title">
                           Communicate directly with clients to incorporate feedback and plan future milestones
                         </p>
                       </div>
                     </div>
-                    <div class="card">
+                    <div>
                       <div class="card-header card-header-default">
                         <p class="card-header-title">
                           Work with a small team to complete deliverables on time
                         </p>
                       </div>
                     </div>
-                    <div class="card card-header-default">
-                      <div class="card-header">
+                    <div>
+                      <div class="card-header card-header-default">
                         <p class="card-header-title">
                           Engage with prospective clients to procure new contracts
                         </p>
@@ -158,7 +158,6 @@
                       <b-tag rounded class="success-light">Objection.js</b-tag>
                       <b-tag rounded class="warning-light">PostgreSQL</b-tag>
                       <b-tag rounded>Git</b-tag>
-                      <b-tag rounded>Command line</b-tag>
                       <b-tag rounded>Digital Ocean</b-tag>
                     </b-taglist>
                   </b-field>
@@ -191,14 +190,11 @@
                   <b-field grouped group-multiline>
                     <span class="has-text-weight-bold">Exposure:</span>
                     <b-taglist>
-                      <b-tag rounded class="info-light">Vue-native</b-tag>
                       <b-tag rounded class="info-light">React</b-tag>
                       <b-tag rounded class="info-light">Typescript</b-tag>
                       <b-tag rounded class="info-light">Three.js</b-tag>
-                      <b-tag rounded class="info-light">WebGL</b-tag>
                       <b-tag rounded class="info-light">Cesium</b-tag>
                       <b-tag rounded class="success-light">Python</b-tag>
-                      <b-tag rounded>AWS</b-tag>
                       <b-tag rounded>Nightwatch</b-tag>
                       <b-tag rounded>Selenium</b-tag>
                     </b-taglist>
@@ -360,7 +356,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-// #e2d400
+// #00a4e2
 .wrap {
   color: red;
 }
@@ -421,6 +417,10 @@ export default {
 
 .margin-right {
   margin-right: 0.5rem;
+}
+
+.custom-padding {
+  padding: 1rem;
 }
 
 </style>
