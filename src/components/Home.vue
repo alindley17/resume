@@ -1,5 +1,5 @@
 <template>
-  <div class="section">
+  <div class="section test">
     <div class="container">
       <div class="tile is-ancestor">
         <div class="tile is-vertical is-8">
